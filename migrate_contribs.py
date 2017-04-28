@@ -7,7 +7,7 @@ import sys
 
 import requests
 
-CONTRIBUTORS_URL = 'http://api.osf.io/v2/nodes/{}/contributors/'
+CONTRIBUTORS_URL = 'http://staging-api.osf.io/v2/nodes/{}/contributors/'
 TOKEN = os.environ['TOKEN']
 
 def get_contribs(url):
